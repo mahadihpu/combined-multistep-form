@@ -1,0 +1,18 @@
+.MuiStepIcon-root {
+  height: 2rem !important;
+  width: 2rem !important;
+  margin-right: 1rem !important;
+}
+
+@media only screen and (max-width: 899px) {
+  .MuiStepConnector-line {
+    margin-top: 0.3rem !important;
+    margin-left: -15px !important;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .MuiStepConnector-line {
+    margin: -15px 0 -15px 2px !important;
+    min-height: 3rem !important;
+  }
+}

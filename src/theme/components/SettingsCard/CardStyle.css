@@ -1,0 +1,48 @@
+/* .settings-card{
+   
+} */
+.items {
+  display: flex;
+  margin: 5px;
+}
+.module-number {
+  margin-right: 15px !important;
+}
+
+.card-footer-container {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  margin-top: 20px;
+  background-image: linear-gradient(to bottom right, #d2faf3, #d8ebe8);
+}
+.card-footer {
+  width: 100%;
+  margin: 10px;
+}
+.more-icon {
+  font-size: 50px !important;
+}
+
+.MuiListItem-root {
+  padding: 5px 0px !important;
+}
+.MuiPaper-root {
+  padding: 12px !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .message-icon {
+    width: 60;
+    height: 50px;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 1900px) {
+  .message-icon {
+    width: 80;
+    height: 70px;
+  }
+}

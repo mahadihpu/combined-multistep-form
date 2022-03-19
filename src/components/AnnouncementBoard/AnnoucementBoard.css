@@ -1,0 +1,6 @@
+.view-more-btn {
+  visibility: hidden;
+}
+.announcement-div:hover .view-more-btn {
+  visibility: visible;
+}

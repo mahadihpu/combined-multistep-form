@@ -1,0 +1,33 @@
+.MuiStepLabel-iconContainer{
+    margin-left: -12px !important;
+    padding-right: 20px !important;
+}
+.MuiStepLabel-label{
+    margin-left: -220px !important;
+    margin-right: 90px !important;
+}
+.MuiStepper-root{
+    margin-left: 140px !important;
+}
+
+@media only screen and (max-width: 899px) {
+    .steps{
+        margin-left: 50px !important;
+    }
+    .step-description{
+        width: 23% !important;
+    }
+}
+@media only screen and (min-width: 1270px) {
+    .steps{
+        margin-left: 30px !important;
+    }
+    .step-description{
+        width: 74% !important;
+    }
+  }
+  @media screen and (min-device-width: 1074px) and (max-device-width: 1200px) { 
+    .step-description{
+        width: 64% !important;
+    }
+}  
